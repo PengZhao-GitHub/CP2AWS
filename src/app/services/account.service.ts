@@ -13,7 +13,7 @@ const httpOptions = {
 })
 export class AccountService {
 
-  baseUrl:string = 'http://54.147.7.110:3000';
+  baseUrl:string = 'http://localhost:3000';
   profileapi:string = '/profile/';
 
   tokenBaseUrl: string = 'http://44.201.220.164:5000/admin';  //Got CORS becuase fogot to add http
