@@ -20,31 +20,31 @@ export const APIEndpoints = {
         }
     ],
     PAS_URL: 'http://44.201.220.164:5000',
-    AUTH_GATEWAY_URL: 'http://localhost:3000',
+    AUTH_GATEWAY_URL: 'http://3.91.100.67:3000',
     AUTH_URLs: [
         {
             provider: 'google',
-            url: 'http://localhost:3000/auth/google'
+            url: 'http://3.91.100.67:3000/auth/google'
         },
         {
             provider: 'facebook',
-            url: 'http://localhost:3000/auth/facebook'
+            url: 'http://3.91.100.67:3000/auth/facebook'
         },
         {
             provider: 'twitter',
-            url: 'http://localhost:3000/auth/twitter'
+            url: 'http://3.91.100.67:3000/auth/twitter'
         },
         {
             provider: 'linkedin',
-            url: 'http://localhost:3000/auth/linkedin'
+            url: 'http://3.91.100.67:3000/auth/linkedin'
         },
         {
             provider: 'line',
-            url: 'http://localhost:3000/auth/line'
+            url: 'http://3.91.100.67:3000/auth/line'
         },
         {
             provider: 'email',
-            url: 'http://localhost:3000/local/login'
+            url: 'http://3.91.100.67:3000/local/login'
         }
     ],
     AUTH_CALLBACK_URL: 'http://localhost:4200/profile/:id'
